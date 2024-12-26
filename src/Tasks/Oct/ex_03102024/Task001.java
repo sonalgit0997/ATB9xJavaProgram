@@ -1,6 +1,6 @@
 package Tasks.Oct.ex_03102024;
 
-public class Lab001 {
+public class Task001 {
     public static void main(String[] args) {
         System.out.println("10*1=10");
         System.out.println("10*2=20");
