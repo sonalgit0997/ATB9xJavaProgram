@@ -1,4 +1,4 @@
-package Oct.ex_15102024_Increment_Decrement;
+package Oct.ex_15102024_2.Increment_Decrement;
 
 public class Lab068 {
     public static void main(String[] args) {

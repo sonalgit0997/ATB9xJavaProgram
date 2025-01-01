@@ -1,4 +1,4 @@
-package Oct.ex_15102024_Ternary;
+package Oct.ex_15102024_1.Ternary;
 
 public class Lab057 {
     public static void main(String[] args) {
