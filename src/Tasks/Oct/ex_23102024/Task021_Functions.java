@@ -15,6 +15,8 @@ public class Task021_Functions {
         System.out.println(r4);
         int r5 = mod(a,b);
         System.out.println(r5);
+
+        sc.close();
     }
 
     static int sum(int a, int b){
