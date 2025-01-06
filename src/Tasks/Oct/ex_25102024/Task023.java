@@ -1,4 +1,4 @@
-package Tasks.Oct.ex_2528102024;
+package Tasks.Oct.ex_25102024;
 
 public class Task023 {
     public static void main(String[] args) {
