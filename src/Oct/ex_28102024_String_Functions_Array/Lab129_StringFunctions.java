@@ -3,12 +3,12 @@ package Oct.ex_28102024_String_Functions_Array;
 public class Lab129_StringFunctions {
     public static void main(String[] args) {
         String anotherPalindrome = "Niagara. O roar again!";
-        String roar = anotherPalindrome.substring(11, 15);
+        String roar = anotherPalindrome.substring(11, 15); // a - b-1
         System.out.println(roar);
 
         // substring - many interviews
-        String s1 = "Pramod";
-        String s2 = s1.concat("Dutta");
+        String s1 = "Sonal";
+        String s2 = s1.concat("Patel");
         System.out.println(s2);
 
 

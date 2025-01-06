@@ -41,7 +41,12 @@ public class Task022 {
         System.out.println(name.replace('n', 'N'));
 
         // 9. split()
-        System.out.println(Arrays.toString(name2.split(" ")));
+
+        String name4 = "Sonal Harish";
+        String[] split = name4.split(" ");
+        System.out.println(Arrays.toString(split));
+        System.out.println(split[0]);
+        System.out.println(split[1]);
 
         // 10. substring( , )
         System.out.println(name.substring(1, 3));
