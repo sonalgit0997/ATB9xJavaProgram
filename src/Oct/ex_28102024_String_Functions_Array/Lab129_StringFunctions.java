@@ -3,7 +3,7 @@ package Oct.ex_28102024_String_Functions_Array;
 public class Lab129_StringFunctions {
     public static void main(String[] args) {
         String anotherPalindrome = "Niagara. O roar again!";
-        String roar = anotherPalindrome.substring(11, 15); // a - b-1
+        String roar = anotherPalindrome.substring(11, 15); // a - b-1 means 11 to 14
         System.out.println(roar);
 
         // substring - many interviews
@@ -25,31 +25,31 @@ public class Lab129_StringFunctions {
         System.out.println(split_fruits2[2]);
 
 
-        String s4 = "Pramod";
+        String s4 = "Sonal";
         System.out.println(s4.charAt(0));
         //System.out.println(s4.charAt(10)); //StringIndexOutOfBoundsException
 
-        String s5 = " Pramod ";
+        String s5 = " Sonal ";
         System.out.println(s5.trim());
 
-        String s6 = "Pramod";
-        System.out.println(s6.indexOf("r"));
-        System.out.println(s6.indexOf("d"));
+        String s6 = "Sonal";
+        System.out.println(s6.indexOf("n"));
+        System.out.println(s6.indexOf("l"));
 
-        String s7 = "Pramod";
-        System.out.println(s7.contains("ra"));
+        String s7 = "Sonal";
+        System.out.println(s7.contains("on"));
         System.out.println(s7.contains("zy"));
 
-        String s8 = "Pramoddutta";
-        System.out.println(s8.lastIndexOf("d"));
+        String s8 = "Sonalpatel";
+        System.out.println(s8.lastIndexOf("a"));
 
-        String s9 = "Pramoddutta";
-        System.out.println(s9.replace("d","z"));
-        System.out.println(s9.replaceAll("d","z"));
+        String s9 = "Sonalpatel";
+        System.out.println(s9.replace("a","x"));
+        System.out.println(s9.replaceAll("a","z"));
 
-        String s10 = "Pramodduttaji";
-        System.out.println(s10.startsWith("Pra"));
-        System.out.println(s10.endsWith("ji"));
+        String s10 = "Sonalpatel";
+        System.out.println(s10.startsWith("Son"));
+        System.out.println(s10.endsWith("el"));
         System.out.println(s10.endsWith("zy"));
 
 
