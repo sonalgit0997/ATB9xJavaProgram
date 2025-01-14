@@ -1,4 +1,4 @@
-package Nov.ex_05112024;
+package Nov.ex_05112024_ClassAndObjects;
 
 public class Lab145_OOPs_Concept {
     public static void main(String[] args) {

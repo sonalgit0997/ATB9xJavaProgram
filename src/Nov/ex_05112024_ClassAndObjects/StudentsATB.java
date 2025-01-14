@@ -1,4 +1,4 @@
-package Nov.ex_05112024;
+package Nov.ex_05112024_ClassAndObjects;
 
 //class - StudentsATB
 public class StudentsATB {
